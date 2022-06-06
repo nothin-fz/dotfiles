@@ -1,5 +1,5 @@
-\.git
-\.gitignore
-\.pacman.list
-\bin
-\README.md
+.git
+.gitignore
+.pacman.list
+bin/
+README.md
