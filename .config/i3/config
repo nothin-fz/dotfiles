@@ -223,12 +223,14 @@ bindsym --release Shift+Print exec scrot -s 'screenshot_%Y%m%d_%H%M%S.png' -e 'm
 # Workspace assign
 assign [class="firefox"] $ws2
 assign [class="thunar"] $ws3
+assign [class="pcmanfm"] $ws3
 assign [class="obsidian"] $ws4
 assign [class="code"] $ws4
 assign [class="vlc"] $ws5
 assign [class="discord"] $ws9
 assign [class="spotify"] $ws10
 assign [class="virt-manager"] $ws10
+assign [class="Steam"] $ws10
 
 # Transparent
 exec_always picom --config ~/.config/picom/picom.conf
