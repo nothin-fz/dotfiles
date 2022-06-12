@@ -58,6 +58,7 @@ bindsym $mod+q kill
 # A more modern dmenu replacement is rofi:
 bindsym $mod+d exec "rofi -show run"
 bindsym $mod+period exec "rofi -show emoji"
+bindsym $mod+Tab exec "rofi -show window"
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
 # .desktop file. It is a wrapper around dmenu, so you need that installed.
@@ -203,7 +204,7 @@ bindsym $mod+shift+x exec betterlockscreen --lock blur
 
 # Floating windows rules
 floating_minimum_size 300 x 300
-floating_maximum_size 800 x 600 
+floating_maximum_size 1280 x 720 
 for_window [class="(?i)firefox" instance="^(?!Navigator$)"] floating enable
 
 # Brightness change
@@ -223,13 +224,14 @@ bindsym --release Shift+Print exec scrot -s 'screenshot_%Y%m%d_%H%M%S.png' -e 'm
 # Workspace assign
 assign [class="firefox"] $ws2
 assign [class="thunar"] $ws3
-assign [class="pcmanfm"] $ws3
+assign [class="Pcmanfm"] $ws3
 assign [class="obsidian"] $ws4
+assign [class="Emacs"] $ws4
 assign [class="code"] $ws4
 assign [class="vlc"] $ws5
 assign [class="discord"] $ws9
 assign [class="spotify"] $ws10
-assign [class="virt-manager"] $ws10
+assign [class="Virt-manager"] $ws10
 assign [class="Steam"] $ws10
 
 # Transparent
@@ -249,3 +251,5 @@ exec bash ~/.config/polybar/docky/scripts/pywal.sh ~/Pictures/wallpaper.jpg
 # autostart
 exec discord
 exec firefox
+exec /usr/bin/emacs --daemon
+exec --no-startup-id /usr/lib/polkit-kde-authentication-agent-1

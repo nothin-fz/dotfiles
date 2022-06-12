@@ -1,4 +1,5 @@
 alacritty
+appimagelauncher-git
 autoconf
 automake
 base
@@ -19,7 +20,10 @@ dmenu
 dnsmasq
 dosfstools
 dunst
+dxvk-bin
 efibootmgr
+element-desktop
+emacs
 fakeroot
 feh
 firefox
@@ -57,6 +61,7 @@ network-manager-applet
 networkmanager
 networkmanager-dmenu-git
 noto-fonts-emoji
+ntfs-3g
 obs-studio
 obsidian
 openbsd-netcat
@@ -65,11 +70,15 @@ p7zip
 papirus-icon-theme
 patch
 pcmanfm
+pcsx2
 picom
+pkg2zip-fork
 pkgconf
+polkit-kde-agent
 polybar
 powerline
 powerline-fonts-git
+ppsspp
 pulseaudio
 python-pywal
 qbittorrent
@@ -99,6 +108,9 @@ unrar
 unzip
 vim
 virt-manager
+virtualbox
+virtualbox-guest-iso
+virtualbox-host-modules-arch
 vlc
 wget
 which
@@ -106,9 +118,11 @@ wine
 winetricks
 wireless_tools
 wpa_supplicant
+xarchiver
 xclip
 xdg-user-dirs
 xdg-utils
+xemu-git
 xf86-video-intel
 xf86-video-vesa
 xorg-bdftopcf
@@ -159,3 +173,4 @@ xorg-xwininfo
 xorg-xwud
 yay-git
 zenity
+zip
