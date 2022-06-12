@@ -48,7 +48,7 @@ bindsym $mod+F9  exec ~/.config/i3/toggle_sink.sh
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec alacritty 
 
 # kill focused window
 bindsym $mod+q kill
