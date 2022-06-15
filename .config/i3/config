@@ -238,7 +238,7 @@ assign [class="Steam"] $ws10
 exec_always picom --config ~/.config/picom/picom.conf
 
 # Background settings
-exec_always feh --bg-fill /home/asuka/Pictures/wallpaper.jpg
+exec_always feh --bg-fill ~/Pictures/wallpaper.jpg
 
 # betterlockscreen
 exec --no-startup-id betterlockscreen -w dim
