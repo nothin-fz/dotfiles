@@ -43,7 +43,8 @@ element-text {
 }
 
 element-icon {
-  size: 30;
+  size: 28;
+  padding: 0 12;
 }
 
 entry {
@@ -59,7 +60,7 @@ inputbar {
 listview {
   padding: 8 12;
   background-color: @bg;
-  columns: 1;
+  columns: 2;
   lines: 8;
 }
 
